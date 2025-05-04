@@ -8,10 +8,10 @@ const Header: React.FC = () => {
   const { isAuthenticated, email, logout } = useGiftRegistry();
 
   return (
-    <header className="w-full bg-white shadow-sm py-4">
+    <header className="w-full bg-white shadow-sm py-4 border-b border-blue-100">
       <div className="container mx-auto flex justify-between items-center px-4">
-        <Link to="/" className="text-2xl font-bold text-casanova-700">
-          Chá de Casa Nova
+        <Link to="/" className="text-2xl font-bold text-blue-600">
+          Chá de Geladeira Nova
         </Link>
         
         {isAuthenticated && (
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
               variant="outline" 
               size="sm" 
               onClick={logout}
-              className="border-casanova-300 text-casanova-700 hover:bg-casanova-50"
+              className="border-blue-300 text-blue-700 hover:bg-blue-50"
             >
               Sair
             </Button>

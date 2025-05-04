@@ -29,73 +29,82 @@ const GiftRegistryContext = createContext<GiftRegistryContextType | undefined>(u
 const initialGifts: GiftItem[] = [
   {
     id: "1",
-    name: "Conjunto de Panelas Antiaderentes",
-    description: "Conjunto completo de panelas antiaderentes para sua nova cozinha",
-    image: "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&auto=format&fit=crop",
-    price: "R$ 299,90",
+    name: "Filé de Frango Sassami",
+    description: "Filé de Frango para nossa dieta!",
+    image: "https://coopsp.vtexassets.com/arquivos/ids/214783/7893000516083.jpg?v=637919523728600000",
+    price: "R$ 24,90",
     url: "https://www.amazon.com.br",
     reservedBy: null,
   },
   {
     id: "2",
-    name: "Jogo de Cama Queen Size",
-    description: "Jogo de cama 100% algodão egípcio, 300 fios",
-    image: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?q=80&auto=format&fit=crop",
-    price: "R$ 199,90",
+    name: "1 KG de Patinho Moído",
+    description: "Carne para sair do Frango",
+    image: "https://coopsp.vtexassets.com/arquivos/ids/216050/6151.jpg?v=637919531240400000",
+    price: "R$ 59,90",
     url: "https://www.americanas.com.br",
     reservedBy: null,
   },
   {
     id: "3",
-    name: "Liquidificador Multiprocessador",
-    description: "Potente liquidificador com várias funções para preparar sucos e refeições",
-    image: "https://images.unsplash.com/photo-1525171254930-2365224b0dc5?q=80&auto=format&fit=crop",
-    price: "R$ 279,90",
+    name: "1 KG de Qualquer Carne",
+    description: "Sinta-se avontade para escolher a carne",
+    image: "./CarneAleat.png",
+    price: "R$ ???",
     url: "https://www.magazineluiza.com.br",
     reservedBy: null,
   },
   {
     id: "4",
-    name: "Conjunto de Toalhas",
-    description: "Kit com 4 toalhas de banho e 4 toalhas de rosto macias",
-    image: "https://images.unsplash.com/photo-1582235314098-8a9e41c832af?q=80&auto=format&fit=crop",
-    price: "R$ 129,90",
+    name: "Fardo de Coca-cola 2L",
+    description: "Pra comida não descer seca",
+    image: "https://conteudo.irmaosgoncalves.com.br/produto/27894900027048/27894900027048_1-removebg-preview.jpg?width=500",
+    price: "R$ 50,00 +/-",
     url: "https://www.amazon.com.br",
     reservedBy: null,
   },
   {
     id: "5",
-    name: "Cafeteira Italiana",
-    description: "Cafeteira italiana de aço inoxidável para um café perfeito",
-    image: "https://images.unsplash.com/photo-1610889556528-9a770e32642f?q=80&auto=format&fit=crop",
-    price: "R$ 99,90",
+    name: "Fardo de Coca-cola Lata",
+    description: "Pra Carol levar pro Trampo",
+    image: "https://storage-alsolucoes.s3.amazonaws.com/media/uploads/produto/refrigerante_coca_cola_350ml_fardo_c_6_c2c9744d-5cb8-4192-b524-33a7c030b217.jpg",
+    price: "R$ 29,00 +/-",
     url: "https://www.americanas.com.br",
     reservedBy: null,
   },
   {
     id: "6",
-    name: "Jogo de Taças para Vinho",
-    description: "Conjunto com 6 taças de cristal para vinho tinto",
-    image: "https://images.unsplash.com/photo-1550850654-196d8bbfc584?q=80&auto=format&fit=crop",
-    price: "R$ 149,90",
+    name: "Fardo com 6 Prats de Laranja",
+    description: "Só pra quem for amigo de verdade",
+    image: "https://static.wixstatic.com/media/0d7cd4_2039cd0733b94ea7b044bfeb4e1298cf~mv2.jpeg/v1/fill/w_637,h_628,al_c,q_85,enc_avif,quality_auto/0d7cd4_2039cd0733b94ea7b044bfeb4e1298cf~mv2.jpeg",
+    price: "R$ 80,00 +/-",
     url: "https://www.magazineluiza.com.br",
     reservedBy: null,
   },
   {
     id: "7",
-    name: "Aspirador de Pó Portátil",
-    description: "Aspirador de pó sem fio com bateria de longa duração",
-    image: "https://images.unsplash.com/photo-1553835029-32ef07e26e83?q=80&auto=format&fit=crop",
-    price: "R$ 399,90",
+    name: "500g de Peito de Peru",
+    description: "Pra fazer no café da manha",
+    image: "https://s3-sa-east-1.amazonaws.com/superimg/img.produtos/2259800000002/804/img_500_1.png",
+    price: "R$ 25,90 +/-",
     url: "https://www.amazon.com.br",
     reservedBy: null,
   },
   {
     id: "8",
-    name: "Conjunto de Talheres",
-    description: "Kit completo com 24 peças de talheres em aço inox",
-    image: "https://images.unsplash.com/photo-1544829885-7c98cdad7933?q=80&auto=format&fit=crop",
-    price: "R$ 179,90",
+    name: "500g de Mussarela Fatiada",
+    description: "Pra completar o pão",
+    image: "https://www.naturaldaterra.com.br/_next/image?url=https%3A%2F%2Fnaturalterra.vtexassets.com%2Farquivos%2Fids%2F173655%2FQueijo-Mussarela-fatiado.jpg.jpg%3Fv%3D638735776632270000&w=1440&q=75",
+    price: "R$ 20,90 +/-",
+    url: "https://www.americanas.com.br",
+    reservedBy: null,
+  },
+  {
+    id: "9",
+    name: "Achocolatado Chocomil",
+    description: "BBB (Baum, Bonito e Barato)",
+    image: "https://http2.mlstatic.com/D_NQ_NP_980241-MLU78917124204_092024-O.webp",
+    price: "R$ 27,00 com 27",
     url: "https://www.americanas.com.br",
     reservedBy: null,
   }
@@ -114,12 +123,15 @@ export const GiftRegistryProvider: React.FC<{ children: ReactNode }> = ({ childr
     }
 
     const storedGifts = localStorage.getItem("giftRegistry_gifts");
-    if (storedGifts) {
-      setGifts(JSON.parse(storedGifts));
-    } else {
-      setGifts(initialGifts);
-      localStorage.setItem("giftRegistry_gifts", JSON.stringify(initialGifts));
-    }
+    // if (storedGifts) {
+    //   setGifts(JSON.parse(storedGifts));
+    // } else {
+    //   setGifts(initialGifts);
+    //   localStorage.setItem("giftRegistry_gifts", JSON.stringify(initialGifts));
+    // }
+    setGifts(initialGifts);
+    localStorage.setItem("giftRegistry_gifts", JSON.stringify(initialGifts));
+
     
     setLoading(false);
   }, []);

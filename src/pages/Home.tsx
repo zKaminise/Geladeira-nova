@@ -45,17 +45,17 @@ const Home: React.FC = () => {
       <div className="max-w-md w-full space-y-8 animate-fade-in">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-casanova-700 mb-2">
-            Chá de Casa Nova da Ana!
+            Chá de Geladeira Nova da Carol e Misaozin
           </h1>
           <p className="text-gray-600 mb-8">
-            Ajude-nos a mobiliar nossa nova casa com presentes especiais
+            Ajude-nos a preencher nossa geladeira e aguentar até o fim do ano!
           </p>
           
           <div className="bg-white p-8 rounded-xl shadow-md">
             <div className="mb-8 overflow-hidden rounded-lg">
               <img 
-                src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&auto=format&fit=crop" 
-                alt="Casa Nova" 
+                src="./MisaoCarol.jpeg" 
+                alt="Misao e Carol" 
                 className="w-full h-48 object-cover" 
               />
             </div>

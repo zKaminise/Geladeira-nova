@@ -39,7 +39,7 @@ const GiftList: React.FC = () => {
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold text-casanova-700 mb-3">Lista de Presentes</h1>
           <p className="text-gray-600 mb-6">
-            Escolha um presente especial para nos ajudar a mobiliar nossa nova casa
+            Escolha um presente especial para nos ajudar a preencher a nossa geladeira
           </p>
 
           <div className="max-w-md mx-auto">
@@ -83,14 +83,14 @@ const GiftList: React.FC = () => {
                   <p className="text-casanova-600 font-semibold mb-3">{gift.price}</p>
                   
                   <div className="space-y-3">
-                    <a 
+                    {/* <a 
                       href={gift.url} 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="block text-center text-sm py-2 px-4 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition-colors"
                     >
                       Ver onde comprar
-                    </a>
+                    </a> */}
                     
                     {gift.reservedBy ? (
                       isReservedByMe(gift.reservedBy) && (
